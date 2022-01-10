@@ -20,7 +20,7 @@
 }
 
 .content {
-  margin: 12% auto 0;
+  margin: 10% auto 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -41,7 +41,7 @@
   margin-top: 1.2rem;
 }
 
-.button button {
+.button input {
   font-family: 'Nueland-Medium', sans-serif;
   background: #0989BE;
   border-radius: 25px;
@@ -84,7 +84,7 @@
 @media (max-width: 576px) {
 
   .content {
-    margin: 20% auto 0;
+    margin: 14% auto 0;
   }
   
 
@@ -100,15 +100,15 @@
   }
 
   .text p {
-    font-size: 1.5rem;
-    line-height: 1.8rem;
+    font-size: 1.3rem;
+    line-height: 1.6rem;
     margin-top: 1.2rem;
   }
 
 
-  .button button {
-    font-size: 1.4rem;
-    line-height: 1.6rem;
+  .button input {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
     padding: 12px;
   }
 
@@ -125,14 +125,15 @@
 
 @media (max-width: 320px) {
   .text p {
-    font-size: 1.2rem;
-    line-height: 1.4rem;
+    font-size: 1.1rem;
+    line-height: 1.3rem;
   }
 
 
-  .button button {
-    font-size: 1.1rem;
-    line-height: 1.3rem;
+  .button input {
+    font-size: 0.9rem;
+    line-height: 1rem;
+    width: 220px;
   }
 
   .logo-desktop{
