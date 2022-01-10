@@ -85,7 +85,7 @@
 @media (max-width: 576px) {
 
   .content {
-    margin: 14% auto 0;
+    margin: 15% auto 0;
   }
   
 
@@ -111,6 +111,7 @@
     font-size: 1.2rem;
     line-height: 1.5rem;
     padding: 12px;
+    width: 200px;
   }
 
   .logo-mobile {
@@ -134,7 +135,7 @@
   .button input {
     font-size: 0.9rem;
     line-height: 1rem;
-    width: 220px;
+    width: 180px;
   }
 
   .logo-desktop{
